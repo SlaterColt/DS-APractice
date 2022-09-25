@@ -27,9 +27,10 @@ public class Main {
         System.out.println(list.contains (40));
         list.removeLast ();
        var linkedArray = list.toArray ();
-       System.out.println(Arrays.toString (linkedArray));
+       //System.out.println(Arrays.toString (linkedArray));
        list.reverse ();
        linkedArray = list.toArray ();
-       System.out.println(Arrays.toString (linkedArray));
+       //System.out.println(Arrays.toString (linkedArray));
+
     }
 }
