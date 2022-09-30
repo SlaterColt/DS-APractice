@@ -24,7 +24,7 @@ public class Main {
         list.addLast (10);
         list.addLast (20);
         list.addLast (30);
-        System.out.println(list.contains (40));
+        //System.out.println(list.contains (40));
         list.removeLast ();
        var linkedArray = list.toArray ();
        //System.out.println(Arrays.toString (linkedArray));
@@ -32,5 +32,9 @@ public class Main {
        linkedArray = list.toArray ();
        //System.out.println(Arrays.toString (linkedArray));
 
+
+        Maps map = new Maps();
+        var isTrue = map.isIsomorphic ("title", "paper");
+        System.out.println(isTrue);
     }
 }
